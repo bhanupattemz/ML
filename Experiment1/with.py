@@ -14,4 +14,4 @@ def find_s_algorithm(filename):
                 elif hypothesis[j] != example[j]:
                     hypothesis[j] = "?"
     return hypothesis
-print(find_s_algorithm("fruit.csv"))
+print(find_s_algorithm(r"c:\Users\bhanu\OneDrive\Desktop\@jntua\ML_lab\Experiment1\fruit.csv"))

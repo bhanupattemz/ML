@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
-filename = 'games.csv'
+filename = r"c:\Users\bhanu\OneDrive\Desktop\@jntua\ML_lab\Experiment3\games.csv"
 data = pd.read_csv(filename)
 
 label_encoder = LabelEncoder()

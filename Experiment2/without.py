@@ -24,6 +24,6 @@ def candidate_elimination_without_libraries(filename):
     return general_hypothesis, specific_hypothesis
 
 
-general, specific = candidate_elimination_without_libraries("zoo.csv")
+general, specific = candidate_elimination_without_libraries(r"c:\Users\bhanu\OneDrive\Desktop\@jntua\ML_lab\Experiment2\zoo.csv")
 print("Most General Hypothesis:", general)
 print("Most Specific Hypothesis:", specific)
